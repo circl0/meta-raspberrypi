@@ -5,4 +5,6 @@ include recipes-core/images/rpi-hwup-image.bb
 IMAGE_INSTALL += " \
 	packagegroup-core-qt4e \
         userland \
+        openssh \
+        libsdl2 \
 	"
